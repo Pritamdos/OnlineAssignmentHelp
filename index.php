@@ -77,9 +77,13 @@
                                             </a>
                                         </span>
                                     </span>
+                                    <span class="page-display">
+                                       <label id="page_msg1" >1</label> page / <label value="250" id="page_msg2" >250</label> Words
+                                    </span>
                                 </div>
+                               
 								
-							    <label id="page_msg1" >1</label> page / <label value="250" id="page_msg2" >250</label> Words
+							    
 									   
                                 <div class="submit-buttin-sections">
                                     <button type="submit" class="only-submit" name="minisubmit" >

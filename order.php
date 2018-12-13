@@ -84,27 +84,31 @@
 																			</a>
 																		</span>
 																	</span>
+																	<span class="page-display">
+																		<label id="page_msg1" >1</label>
+																		page / <label value="250" id="page_msg2" >250</label> Words
+                                                                     </span>	
 																</div>
-																					
-																<label id="page_msg1" >1</label> page / <label value="250" id="page_msg2" >250</label> Words												
+															    					
+																											
 															</div>
 															
 															<div class="stp-right">
 																
 																<div class="each-rows-inputs">
 																   <div class="left-s-get">
-																		<select class="selects-drop">
+																		<select class="selects-drops">
 																		   <option>IN (+91)</option>
 																		   <option>PAK(+93)</option>
 																		   <option>AUS(+91)</option>
 																		</select>
 																   </div>
-																   <div class="right-s-get">
-																			<input type="text" name="ord_phone" id="ord_phone" placeholder="Enter Phone Number" required="true" />
+																   <div class="phhn">
+																		<input type="text" name="ord_phone" id="ord_phone" placeholder="Enter Phone Number" required="true" />
 																   </div>
            												   </div>
 														   
-															   <div class="lg-fr ">
+															   <div class="lg-fr">
 																	<span class="deadline-text--educations">
 																		Education Level
 																	</span>
@@ -123,8 +127,9 @@
 																</div>
 																
 															</div>
+															<label class="error-messages" id="error_fill" ></label>
 														</div>	
-														<label style="color:red;" id="error_fill" ></label>
+														
 												</div>
 												
 												<div class="submit-button-sections-stepper">

@@ -425,6 +425,8 @@ span.get-call
     width:70%;
     float: left;
 }
+
+
 select.selects-drop 
 {
     width: 100%;
@@ -441,6 +443,23 @@ select.selects-drop:focus
 {
     outline:none!important;
 }
+select.selects-drops 
+{
+    width: 100%;
+    float: left;
+    height:40px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #666;
+    box-sizing: border-box;
+    font-size:12px;
+    line-height:20px;
+}
+select.selects-drops:focus
+{
+    outline:none!important;
+}
+
 .right-s-get  input[type="number"],.right-s-get  input[type="text"]  
 {
     height: 36px;
@@ -467,6 +486,7 @@ select.selects-drop:focus
     width:100%;
     float: left;
 }
+
 .right-s-get  input[type="number"]:focus
 {
     outline:none!important;
@@ -603,8 +623,87 @@ textarea:-moz-placeholder
     font-size: 13px;
     color: #888!important;
 }
-
-
+.phhn
+{
+    width:70%;
+    float: left;
+    padding:0 5px;
+}
+.phhn input[type="number"],.phh input[type="text"]  
+{
+    height:40px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+    line-height: 20px;
+}
+label#error_fill 
+{
+    width: 100%;
+    float: left;
+    color:red;
+    margin-top: 10px;
+    font-size:13px;
+    line-height:18px;
+}
+span.page-display 
+{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    top: 43px;
+    color: #666;
+    font-size: 13px;
+}
+.user-dashboard-sections 
+{
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+    height: calc(100vh - 340px);
+}
+.left-uer-sections 
+{
+    width: 200px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.right-uer-sections {
+    width: calc(100% - 250px);
+    float: left;
+    padding-left: 270px;
+}
+ul.tab__head {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+}
+li.ecg-list{
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+a.linl 
+{
+    width: 100%;
+    float: left;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 15px 15px;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    font-weight: 500;
+}
 @media screen and (max-width:767px)
 {
 

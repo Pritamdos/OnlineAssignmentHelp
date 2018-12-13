@@ -1456,6 +1456,7 @@ span.card-logos
      float: left;
      background:#373737;
      position: relative;
+     z-index:99;
  }
  i.fa.fa-arrow-up
  {
@@ -2398,9 +2399,11 @@ input#tab-one,input#tab-two
 
 .tab-content-profile 
 {
-    width: 100%;
+    width:50%;
     float: left;
     margin-top:10px;
+    padding: 10px;
+    
 }
 .profile-right-sec .tab
 {
@@ -2422,11 +2425,11 @@ label.hd-hide.persoanl-Informations,.history-details
     float: left;
     text-align: center;
 }
-/* .welcome-footers
+
+.tab__content .table-users
 {
-    position: fixed;
-    bottom:0;
-} */
+    margin-top:40px;
+}
 @media(max-width:768px)
 {
     .profile-outer-section{display: block;}
@@ -2863,8 +2866,19 @@ span.top-counters
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     
 
+}
+span.page-display 
+{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    top: 43px;
+    color: #666;
+    font-size: 13px;
 }
 .bottom-counter
 {
@@ -2874,6 +2888,7 @@ span.top-counters
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   
 }
 i.fa.fa-plus.counter-icns,i.fa.fa-minus.counter-icns
@@ -4290,4 +4305,64 @@ span.wd
     .rc-right{float:left!important;margin:10px 0;}
     .card-outer-online-reviews{padding:0px 0 20px 0!important;}
     .reviwes-inner-modals{width:90%!important;}
+}
+.v-tab .tab__head {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 32px;
+    width: 125px;
+  }
+  .v-tab .tab__head li {
+    float: left;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    padding: 0px 10%;
+    height: 32px;
+    line-height: 31px;
+    color: #333;
+    border-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #e5e5e5;
+    width: 80%;
+  }
+  .v-tab .tab__head li:hover {
+    background-color: #bbb;
+    color: #000;
+  }
+  .v-tab .tab__head li.active {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    border-right: 0;
+    display: block;
+  }
+  .v-tab .tab__container {
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    min-height: 200px;
+  }
+  .v-tab .tab__content {
+    padding: 20px;
+    display: none;
+  }
+  .v-tab .tab__content > :first-child {
+    margin-top: 0;
+  }
+  .left-uer-sectionss
+   {
+    width: 250px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    z-index: 1;
+    background-color: #3b9bb9;
 }
