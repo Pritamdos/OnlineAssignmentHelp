@@ -21,7 +21,8 @@
     <?php include './header.php'?>
     <div class="onl-banner-sections">
         <div class="onl-inrs-banner-sections-login-signups">
-        <?php include './notification.php'?>
+            <?php include './notification.php'?>
+        </div>
     </div>
     <div class="user-dashboard-sections">
                 <div class="left-uer-sectionss">
@@ -730,10 +731,7 @@
                     </div>
 
                 </div>
-
     </div>
-
-  
     <?php include './footer.php'?>
 
 
