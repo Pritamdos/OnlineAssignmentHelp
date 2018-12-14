@@ -2423,7 +2423,7 @@ input#tab-one,input#tab-two
 .tab-content-profile 
 {
     width:50%;
-    margin:20px auto;
+    margin:40px auto;
 }
 .profile-right-sec .tab
 {
@@ -4259,7 +4259,10 @@ span.wd
 }
 @media screen and (min-width:1024px) and (max-width:1366px)
 {
-  
+    .user-pagess
+    {
+        position: relative;
+    }
 }
 @media screen and (min-width:768px) and (max-width:997px)
 {
