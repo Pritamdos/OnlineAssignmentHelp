@@ -572,11 +572,49 @@ span.reason-for-callback
     line-height:20px;
     text-transform: capitalize;
 }
-.text-reason {
+.text-reason 
+{
+    width: 100%;
+    float: left;
+    margin:0px 0 0 0;
+    padding: 0;
+}
+.text-reason-area
+{
     width: 100%;
     float: left;
     margin: 8px 0 0 0;
-    padding: 0;
+    padding:0 0px;
+}
+input.custom-file-input 
+{
+    width:400px;
+    float: left;
+    border: 1px solid #Ddd;
+}
+.custom-file-input::-webkit-file-upload-button 
+{
+    visibility: hidden;
+}
+  .custom-file-input::before 
+  {
+    content: 'Select files';
+    display: inline-block;
+    background: #3b9bb9;
+    border-radius: 3px;
+    padding: 10px 20px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 10pt;
+    color: #fff;
+    float: left;
+}
+span.prv 
+{
+    float: left;
+    margin-right: 10px;
 }
 textarea.textareas 
 {
@@ -641,7 +679,7 @@ textarea:-moz-placeholder
     margin: 0;
     line-height: 20px;
 }
-label#error_fill 
+.error
 {
     width: 100%;
     float: left;
@@ -712,5 +750,9 @@ a.linl
     .notif-item-items{border-radius:5px 0 0 0px!important;}
     span.hds{font-size:18px!important;line-height:30px!important;}
     span.sb-text{font-size:12px!important;line-height:20px!important;}
+    a.linl
+    {
+        border-bottom:none!important;
+    }
     
 } 

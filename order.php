@@ -63,7 +63,7 @@
 																			<i class="fa fa-calendar" aria-hidden="true"></i>
 																		</span>
 																		<input type="date" name="datepicker" id="datepicker" onchange="checkDate()" required class="datepicker-input" required="true" />
-																		<label style="color:red;" id="error_msg" ></label>
+																		<label class="error"  id="error_msg" ></label>
 																	</div>
 																</div>
 																
@@ -127,7 +127,7 @@
 																</div>
 																
 															</div>
-															<label class="error-messages" id="error_fill" ></label>
+															<label class="error" id="error_fill" ></label>
 														</div>	
 														
 												</div>
@@ -139,7 +139,7 @@
 										
 										<!-- Stage 2 Page of Form -->	
 										   <div id="stage2" class="s-stepper-stage">
-											<div class="stepper-form-inner-sec">
+										     	<div class="stepper-form-inner-sec">
 													<div class="stp-otr">
 														<div class="stp-left">
 															<div class="each-rows-inputs">
@@ -166,24 +166,33 @@
 																</div>
 															</div>
 														</div>	
+														<div class="get-each-sec">
+															<div class="text-reason-area">
+																<span class="reason-for-callback">
+																Description
+																</span>
+																<textarea placeholder="Please describe..." name="ord_reason" id="ord_reason" class="textareas" required="true" ></textarea>
+															</div>
+													   </div>
+												   
+														<div class="get-each-sec">
+													     	<div class="file-upload">
+																<div class="file-select">
+																	<div class="file-select-button" id="fileName">Choose File</div>
+																	<div class="file-select-name" id="noFile">No file chosen...</div> 
+																	<input type="file" name="chooseFile" id="chooseFile">
+																</div>
+                                                            </div>
+														</div>
 													</div>
 													
-													<div class="get-each-sec">
-														<span class="reason-for-callback">
-														   Description
-														</span>
-														<div class="text-reason">
-															<textarea placeholder="Please describe..." name="ord_reason" id="ord_reason" class="textareas" required="true" ></textarea>
-														</div>
-												   </div>
-												   
-												   <div class="get-each-sec">
-														<input type="file" name="file"><br><br>
-												   </div>
-												   	
-											</div>
+												</div>
 											<div class="submit-button-sections-stepper">
-											   <button type="button" onclick="back()" class="done-btn-sections" style='margin-right:16px'>BACK<i class="fa fa-arrow-circle-left lg" aria-hidden="true"></i></button>
+												<button type="button" onclick="back()" class="done-btn-sections" style='margin-right:16px'>Previous
+												  <span class="prv">
+												     <i class="fa fa-arrow-circle-left lg" aria-hidden="true"></i>
+                                                  </span>
+											    </button>
 												<button type="submit" class="done-btn-sections done" style='margin-right:16px' name="ordersubmit" >Done</button>
 											</div>
 										</div>
