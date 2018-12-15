@@ -718,6 +718,16 @@ span.page-display
     width:100%;
     float: left;
     padding-left: 270px;
+    padding-right: 20px;
+}
+.form-ret {
+    width: 50%;
+    float: left;
+}
+.form-let 
+{
+    width: 50%;
+    float: left;
 }
 ul.tab__head {
     margin: 0;
@@ -743,6 +753,12 @@ a.linl
     line-height: 22px;
     text-decoration: none;
     font-weight: 500;
+    transition: 0.5s ease;
+}
+a.linl:hover
+{
+    border-left:2px solid #fff;
+    background:rgba(0,0,0,0.4);
 }
 @media screen and (max-width:767px)
 {
