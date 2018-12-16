@@ -865,7 +865,25 @@
     </div>
     <?php include './footer.php'?>
 </body>
-
+<div class="loaders-css" id="ld1">
+    <div class='loader loader1'>
+        <div>
+            <div>
+            <div>
+                <div>
+                <div>
+                    <div>
+                        <h6>
+                            Hi
+                        </h6>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
 <script src="./assets/js/scrollanimations.js"></script>
