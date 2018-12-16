@@ -866,22 +866,27 @@
     <?php include './footer.php'?>
 </body>
 <div class="loaders-css" id="ld1">
-    <div class='loader loader1'>
-        <div>
-            <div>
+    <div class="loader-inners-sections">
+        <div class='loader loader1'>
             <div>
                 <div>
                 <div>
                     <div>
-                        <h6>
-                            Hi
-                        </h6>
+                    <div>
+                        <div>
+                            
+                        </div>
+                    </div>
                     </div>
                 </div>
                 </div>
             </div>
-            </div>
+            
         </div>
+        <span class="text-loader">
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </span>
+        
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

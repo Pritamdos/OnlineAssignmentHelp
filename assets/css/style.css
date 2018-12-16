@@ -4173,9 +4173,23 @@ div#ld1
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
     z-index: 999999;
 }
+span.text-loader {
+    width: 100%;
+    float: left;
+    color: #Fff;
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 @-webkit-keyframes rotate {
     0% {
       -webkit-transform: rotate(0deg);
@@ -4208,11 +4222,10 @@ div#ld1
   .loader 
   {
     position: relative;
-    margin: 75px auto;
+    margin:10px auto;
     width:80px;
     height:80px;
     display: block;
-    overflow: hidden;
   }
   .loader div {
     height: 100%;
