@@ -4149,6 +4149,12 @@ span.wd
     {
         color:#fff!important;
     }
+    a.linl:hover 
+    {
+        border-bottom: 2px solid #fff!important;
+        background: rgba(0,0,0,0.4);
+        border-left:none!important;
+    }
 
     
     
@@ -4179,6 +4185,9 @@ span.wd
     .tab-content-profile{width:100%!important;}
     .right-uer-sections{width:100%!important;}
     .tab-content-profile{width:100%!important;margin:040px auto!important;}
+    .user-pagess{
+        position: relative!important;
+    }
     
 } 
 @media screen and (min-width:998px) and (max-width:1280px)
